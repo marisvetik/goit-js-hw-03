@@ -7,19 +7,22 @@
 
 
 const findBestEmployee = function (employees) {
-    const keys = Object.keys(employees);
-    const values = Object.values(employees);
+    // const keys = Object.keys(employees);
+    // const values = Object.values(employees);
 
-    let value = employees[keys[0]];
-    let name = keys[0];
-    for (let el of keys) {
-        if (value < employees[el]) {
-            value = employees[el];
-            name = el;
-        }
+    // let value = employees[keys[0]];
+    // let name = keys[0];
+    // for (let el of keys) {
+    //     if (value < employees[el]) {
+    //         value = employees[el];
+    //         name = el;
+    //     }
+    // }
+    // // console.log(`${name} : ${value}`);
+    // return name;
+    for (let key in employees) {
+
     }
-    // console.log(`${name} : ${value}`);
-    return name;
 
 };
 

@@ -5,8 +5,7 @@
 // Вызовы функции для проверки работоспособности твоей реализации.
 
 const countProps = function (obj) {
-    const propsSum = Object.values(obj);
-    return propsSum.length;
+    return Object.values(obj).length;
 };
 
 console.log(countProps({})); // 0
